@@ -20,4 +20,7 @@ docker run \
 - [APOC](https://github.com/neo4j-contrib/neo4j-apoc-procedures)
 
 
+#### Legal Notes:
+- By using this you accept Neo4j's License agreement.
+
 ###### Built with ❤️ in California.
