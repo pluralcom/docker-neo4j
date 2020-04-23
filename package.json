@@ -1,0 +1,33 @@
+{
+  "name": "@pluralcom/docker-neo4j",
+  "version": "4.0.0-enterprise-p.0",
+  "private": true,
+  "description": "🐳 Docker container files that are used to backup Neo4j on EKS' Kubernetes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pluralcom/plural-neo4j-backup.git"
+  },
+  "author": {
+    "name": "Ahmed Tarek",
+    "email": "ahmed.tokyo1@gmail.com",
+    "url": "https://github.com/A-Tokyo"
+  },
+  "bugs": {
+    "url": "https://github.com/pluralcom/eslint-config-plural/issues"
+  },
+  "homepage": "https://github.com/pluralcom/eslint-config-plural",
+  "scripts": {
+    "test": "docker build . -t test"
+  },
+  "keywords": [
+    "docker",
+    "neo4j",
+    "database",
+    "graph-database",
+    "aws",
+    "eks",
+    "kubernetes",
+    "plural"
+  ],
+  "license": "MIT"
+}
