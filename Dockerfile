@@ -15,5 +15,9 @@ RUN apt-get update && apt-get -qq -y install wget
 RUN wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/$NEO4J_APOC_PLUGIN_VERSION/apoc-$NEO4J_APOC_PLUGIN_VERSION-all.jar
 RUN mv apoc-$NEO4J_APOC_PLUGIN_VERSION-all.jar $NEO4J_PLUGINS_PATH/apoc.jar
 
+# Add and verify jq
+ADD https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64 /usr/bin/jq
+RUN chmod +x /usr/bin/jq
+
 ENTRYPOINT ["/sbin/tini", "-g", "--", "/docker-entrypoint.sh"]
 CMD ["neo4j"]
