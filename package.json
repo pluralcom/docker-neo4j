@@ -1,6 +1,6 @@
 {
   "name": "@pluralcom/docker-neo4j",
-  "version": "4.0.4-enterprise-p.0",
+  "version": "4.1.2-enterprise-p.0",
   "private": true,
   "description": "🐳 Docker container files that are used to backup Neo4j on EKS' Kubernetes",
   "repository": {
