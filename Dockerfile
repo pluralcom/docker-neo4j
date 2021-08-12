@@ -1,4 +1,4 @@
-FROM neo4j:4.3.1-enterprise
+FROM neo4j:4.3.3-enterprise
 
 ENV _JAVA_OPTIONS=-Xmx2g \
     NEO4J_ACCEPT_LICENSE_AGREEMENT='yes' \
